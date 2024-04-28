@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our services</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .service {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .service-item {
+            flex: 0 0 300px;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: rgba(255, 255, 255, 0.8); /* Added a semi-transparent white background */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .service-item:hover {
+            transform: translateY(-5px);
+        }
+        .service-item img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        .service-item h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        .service-item p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+        a:hover {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>OUR SERVICES</h1>
+        <hr>
+        <div class="service">
+            <div class="service-item">
+                <a href="makeup.html">
+                    <img src="makeup.jpg" alt="Makeup Service">
+                    <h2>Makeup</h2>
+                    <p>Our professional makeup artists will enhance your natural beauty for any occasion, from weddings to photo shoots.</p>
+                </a>
+            </div>
+            <div class="service-item">
+                <a href="manicure.html">
+                    <img src="manicure.jpg" alt="Manicure Service">
+                    <h2>Manicure</h2>
+                    <p>Treat yourself to a luxurious manicure treatment, featuring a wide range of colors and styles to suit your taste.</p>
+                </a>
+            </div>
+            <div class="service-item">
+                <a href="pedicure.html">
+                    <img src="pedicure.jpg" alt="Pedicure Service">
+                    <h2>Pedicure</h2>
+                    <p>Relax and rejuvenate with our pampering pedicure services, leaving your feet looking and feeling their best.</p>
+                </a>
+            </div>
+            <div class="service-item">
+                <a href="hairdressing.html">
+                    <img src="hairdressing.jpg" alt="Hairdressing Service">
+                    <h2>Hairdressing</h2>
+                    <p>Transform your look with our expert hairdressing services, including cuts, colors, styling, and treatments.</p>
+                </a>
+            </div>
+        </div>
+        <a href="index.html"> Home</a>&nbsp;&nbsp;&nbsp;<a href="about.html">About us</a>&nbsp;&nbsp;&nbsp;<a href="services.html">Our Services</a>
+    </div>
+</body>
+</html>
